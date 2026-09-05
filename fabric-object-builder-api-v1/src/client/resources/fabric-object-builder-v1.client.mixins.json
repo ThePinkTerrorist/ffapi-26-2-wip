@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.object.builder.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "WoodTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

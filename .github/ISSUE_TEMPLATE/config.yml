@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Sinytra Discord
+    url: https://discord.sinytra.org
+    about: Please ask here for help with installing Forgified Fabric API.
+  - name: GitHub Discussions
+    url: https://github.com/Sinytra/ForgifiedFabricAPI/discussions
+    about: Please look here for frequently asked questions and questions on how to use Forgified Fabric API.

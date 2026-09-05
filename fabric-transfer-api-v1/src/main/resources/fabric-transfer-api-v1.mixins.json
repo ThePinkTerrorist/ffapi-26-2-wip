@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.transfer",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "registry.BaseMappedRegistryAccessor",
+    "registry.MappedRegistryAccessor",
+    "CompoundContainerAccessor",
+    "FluidMixin",
+    "ItemContainerContentsAccessor",
+    "ItemMixin",
+    "ItemStackAccessor",
+    "PlayerItemAccessMixin",
+    "TransactionManagerMixin",
+    "TransactionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

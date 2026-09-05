@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.screen",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AbstractContainerScreenMixin",
+    "MinecraftMixin",
+    "ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "mixins": [
+    "ScreenAccessor"
+  ]
+}

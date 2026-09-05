@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.item",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AnvilMenuMixin",
+    "BuiltInRegistriesMixin",
+    "DataComponentInitializersMixin",
+    "DataComponentInitializersPendingComponentsMixin",
+    "DataComponentMapBuilderMixin",
+    "EnchantCommandMixin",
+    "EnchantmentBuilderAccessor",
+    "EnchantmentBuilderMixin",
+    "EnchantRandomlyFunctionMixin",
+    "ItemMixin",
+    "ItemPropertiesMixin",
+    "ItemStackMixin",
+    "ResourceManagerRegistryLoadTaskMixin",
+    "IItemExtensionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
